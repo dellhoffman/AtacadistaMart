@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  atacadista.mart:
+    image: atacadista.mart
+    build:
+      context: ./Atacadista.Mart
+      dockerfile: Dockerfile
